@@ -35,3 +35,4 @@ C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGal
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.pdb
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.genruntimeconfig.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.csproj.CopyComplete
+C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\Razor\Views\ComicBooks\Detail.cshtml.g.cs
