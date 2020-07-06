@@ -12,8 +12,6 @@ C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGal
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.csprojAssemblyReference.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.AssemblyInfoInputs.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.AssemblyInfo.cs
-C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.csproj.CoreCompileInputs.cache
-C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.RazorAssemblyInfo.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.RazorAssemblyInfo.cs
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.TagHelpers.input.cache
@@ -36,3 +34,5 @@ C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGal
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.genruntimeconfig.cache
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.csproj.CopyComplete
 C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\Razor\Views\ComicBooks\Detail.cshtml.g.cs
+C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.csproj.CoreCompileInputs.cache
+C:\Users\sterl\source\repos\comic-book-gallery\src\ComicBookGallery\ComicBookGallery\obj\Debug\netcoreapp3.1\ComicBookGallery.MvcApplicationPartsAssemblyInfo.cache
