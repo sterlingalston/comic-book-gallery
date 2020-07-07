@@ -3,25 +3,31 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 
-public class ComicBook
+namespace ComicBookGallery.Models
 {
-	public int id {get; set;}
-	public string SeriesTitle { get; set; }
-	public int IssueNumber { get; set; }
-	public string DescriptionHtml { get; set; }
-	public Artist Artists { get; set; }
-	public bool Favorite { get; set; }
-
-	public string DisplayText 
+	public class ComicBook
 	{
-        get { return SeriesTitle + " #" + IssueNumber.ToString();        }
-	}
+		public int id { get; set; }
+		public string SeriesTitle { get; set; }
+		public int IssueNumber { get; set; }
+		public string DescriptionHtml { get; set; }
+		public Artist[] Artists { get; set; }
+		public bool Favorite { get; set; }
 
-	//series-title-issuenumber.jpg
+		public string DisplayText
+		{
+			get { return SeriesTitle + " #" + IssueNumber.ToString(); }
+		}
 
-	public string CoverImageFileName 
-	{
-		get { return SeriesTitle.Replace(" ","-").ToLower()
-				+ "-" + IssueNumber + ".jpg"; }
+		//series-title-issuenumber.jpg
+
+		public string CoverImageFileName
+		{
+			get
+			{
+				return SeriesTitle.Replace(" ", "-").ToLower()
+				  + "-" + IssueNumber + ".jpg";
+			}
+		}
 	}
 }
