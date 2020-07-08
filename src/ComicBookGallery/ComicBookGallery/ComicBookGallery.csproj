@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Images\bone-50.jpg" />
+    <None Include="wwwroot\Images\the-amazing-spider-man-657.jpg" />
+    <None Include="wwwroot\Images\the-amazing-spider-man-700.jpg" />
     <None Include="wwwroot\Scripts\bootstrap.min.js" />
     <None Include="wwwroot\Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="wwwroot\Scripts\jquery-1.10.2.js" />
