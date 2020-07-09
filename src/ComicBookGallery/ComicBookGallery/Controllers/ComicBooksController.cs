@@ -1,14 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
+using ComicBookGallery.Data;
 using ComicBookGallery.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Server.IIS;
 
 namespace ComicBookGallery.Controllers
 {
     public class ComicBooksController: Controller
     {
+        private ComicBookRepository _comicBookRepository = null;
+
+        public ComicBooksController()
+        {
+            _comicBookRepository = new ComicBookRepository();
+        }
+
         //public ContentResult Detail() 
         #region
         //public ActionResult Detail()
@@ -30,10 +40,8 @@ namespace ComicBookGallery.Controllers
 
         #endregion
 
-        public ActionResult Detail()
+        public ActionResult Detail(int? id)
         {
-
-
             #region old ViewBag code
             /*
             ViewBag.SeriesTitle = "The Amazing Spider-Man";
@@ -49,9 +57,21 @@ namespace ComicBookGallery.Controllers
             };*/
             #endregion
 
-
-            return View(comicBook);
+            if(id == null)
+            {
+                return new ContentResult()
+                {
+                    Content = "Oops! Page doesn't exist."
+                };
+            }
+            else
+            { 
+                var comicBook = _comicBookRepository.GetComicBook((int)id);
+                return View(comicBook);
+            }
         }
+
+
     }
 
     
